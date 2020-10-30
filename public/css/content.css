@@ -1,0 +1,38 @@
+.content  {
+    padding-left: var(--space-medium);
+    
+    background-size:contain;
+  }
+  .content about us {
+    font-size: 14px;
+  }
+  
+  @media (min-width: 550px) {
+    .content .about-us {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-column-gap: var(--space-medium);
+    }
+  }
+  
+  @media (min-width: 750px) {
+    .content .about-us {
+      grid-template-columns: 1fr ;
+      grid-column-gap: var(--space-big);
+
+  @media (min-width: 550px) {
+        .content .grid {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-column-gap: var(--space-medium);
+        }
+      }
+      
+  @media (min-width: 750px) {
+        .content .grid {
+          grid-template-columns: 1fr 1fr 1fr;
+          grid-column-gap: var(--space-big);
+        }
+    }
+    }
+  }

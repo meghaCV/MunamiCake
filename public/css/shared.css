@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;600;900&display=swap");
+
+h1,
+h2,
+h3 {
+  font-weight: 900;
+  margin-top: 0;
+}
+h1 {
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: var(--space-medium);
+}
+h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: var(--space-small);
+}
+
+p {
+  margin-top: 0;
+}
+
+hr {
+  margin-bottom: var(--space-big);
+}
+
+header {
+        
+  background-color:lightgreen;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  background-size: cover;
+  background-position:center;
+  width:100%;
+  left:0px;
+  margin-bottom: 0 auto;
+  
+}
+
+footer {
+  background-color:lightgreen;
+  padding: 40px;
+  text-align: center;
+  position: absolute;
+  font-size:10px;
+  bottom: 0;
+    width: 100%;
+    height:50px;
+    margin: 0 auto;
+    margin-top: -50px;
+    left:0px;
+}
+
+body {
+  font-family: "Gothic A1", sans-serif;
+  box-sizing: border-box;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: var(--space-bigger) var(--space-medium) var(--space-big); /* top, sides, bottom */
+  height:100px;
+  
+}
+
+.subtitle {
+  font-size: 12px;
+  font-weight: 900;
+  color: #797979;
+  text-transform: uppercase;
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+

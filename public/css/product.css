@@ -1,0 +1,18 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+.row1 {
+  display: flex;
+}
+.row2 {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  padding: 10px;
+}
